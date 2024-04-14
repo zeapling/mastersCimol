@@ -1,0 +1,171 @@
+@import url('https://fonts.cdnfonts.com/css/valorant');
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.cabecalho {
+  font-family: 'VALORANT', sans-serif;
+  font-style: normal;
+  padding-bottom: 0.2%;
+  background-color: rgb(0, 0, 0);
+  position: fixed; /* Adiciona o cabeçalho como fixo */
+  width: 100%; /* Define a largura total */
+  top: 0; /* Fixa o cabeçalho na parte superior da página */
+  z-index: 1000; /* Define a ordem de empilhamento para garantir que o cabeçalho esteja acima de outros elementos */
+}
+
+
+.conteudo{
+    margin-top: 5%;
+}
+
+
+.fonte{
+    font-family: 'VALORANT', sans-serif;
+    font-style: normal;
+  }
+
+  .mainText{
+    padding-top: 24vh;
+    padding-bottom: 8%;
+    color: rgb(0, 0, 0);
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+  
+main{
+  background-size: 100%;
+  padding-bottom: 10%;
+    background-image: url("../images/imagensBody/backgroundLines.png");
+} 
+  .backTwo{
+    background-color: black;
+  }
+
+  .opostoFundo{
+    color: rgb(255, 255, 255);
+   /* mix-blend-mode:color-dodge;*/
+   /* mix-blend-mode:difference;*/
+    mix-blend-mode:exclusion;
+    
+  }
+.botaoParticipar:hover{
+  background-image:url("../images/gifs/btn1.gif");
+  background-size: 100%;
+  transition: 10ms;
+  cursor: pointer;
+  color:white;  
+}
+
+  .botaoParticipar{
+    font-size: clamp(20px,2vw,40px) ;
+    color:white;  
+    margin-inline: 35px; 
+    padding-block: 15px;  
+    background-color: #FF4655;
+       
+  }
+
+  .botaoRegras:hover{
+    background-image:url("../images/gifs/btnRegras.gif");
+    background-size: 100%;
+    transition: 10ms;
+    cursor: pointer;
+    color:rgb(255, 255, 255);  
+  } 
+  
+    .botaoRegras{
+      margin-top: 2vw;
+      font-size: clamp(20px,2vw,40px) ;
+      color:rgb(0, 0, 0);  
+      margin-inline: 35px; 
+      padding-block: 15px;  
+      background-color: #e9e9e9;
+      color:rgb(0, 0, 0);  
+ 
+    }
+
+
+  .data{
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'VALORANT', sans-serif;
+    font-style: normal;
+    font-size: 5vw;
+    color: white;
+  }    
+
+  .titulo{
+   
+    margin-top:2rem; font-size: 8rem;
+  }
+
+  .rodape{
+    background-color:rgb(24, 24, 24); 
+    display: flex; 
+    justify-content: center; 
+    padding-top: 10vw;
+  }
+  .torneio{
+    font-size: 70px;
+    }
+  @media screen and (max-width: 1000px) {
+    .titulo{
+      font-size: 40px;
+    }
+    
+.torneio{
+  font-size: 30px;
+  }
+
+  .botaoRegras{
+    font-size: clamp(20px,2vw,40px) ;
+    color:white;  
+    margin-inline: 18vw; 
+    padding-block: 4vw;  
+    background-color: #FF4655;
+    background-color: #e9e9e9;
+    color:rgb(0, 0, 0);  
+    margin-top: 2vw;
+  }
+
+    .botaoParticipar{
+      font-size: clamp(20px,2vw,40px) ;
+      color:white;  
+      margin-inline: 18vw; 
+      padding-block: 4vw;  
+      background-color: #FF4655;
+         
+    }
+    .emBreve{
+      display: none;
+    }
+    .valorant{
+margin: 0;
+      padding-right: 0;
+      padding-left: 0;
+    }
+    .textoin{
+      margin-left: 8%;
+      margin-right: 8%;
+    }
+
+    .desktop{
+      display: none;
+    }  
+    
+    .mainText{
+      padding-top: 8vh;
+      background-image: none;
+      color: black;
+      margin-bottom: 20%;
+    }
+  }
+
+  
+  
