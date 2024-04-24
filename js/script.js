@@ -28,7 +28,7 @@ function percorrerArray(arrayHere) {
 
 function trocaGif()
 {
-    if(window.innerWidth > 1030) {
+    if(window.innerWidth > 1023) {
         let gif = percorrerArray(arrayGifs);
         gifTitulo.style.backgroundImage = "url("+gif+")";
     }
@@ -42,10 +42,10 @@ function trocaGif()
 
 const arrayPatrocinadores = 
 [
-"/images/logo/info.png",
-"/images/logo/info.png",
-"/images/logo/info.png",
-"/images/logo/info.png"
+"images/logo/info.png",
+"images/logo/info.png",
+"images/logo/info.png",
+"images/logo/info.png"
 
 ];
 
