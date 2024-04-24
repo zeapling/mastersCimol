@@ -1,5 +1,17 @@
 @import url('https://fonts.cdnfonts.com/css/valorant');
 
+@media (prefers-color-scheme: dark) {
+  :root {
+      color-scheme: light;
+  }
+}
+
+@media (forced-colors: active) {
+  :root {
+      color-scheme: light;
+  }
+}
+
 body{
     background-color:rgb(231, 227, 218);
 }
