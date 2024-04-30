@@ -34,17 +34,21 @@ a{
 
 
 .infologo{
+  mix-blend-mode: difference;
+  filter: invert(1);
   position: absolute;
-  width: 10vw;
-  height: 4vw;
+  width: 9vw;
+  height: 9vw;
   left: 5%;
  color: aliceblue;
 
 }
 .cimologo{
+  mix-blend-mode: difference;
+  filter: invert(1);
   position: absolute;
-  width: 4vw;
-  height: 5vw;
+  width: 5vw;
+  height: 7vw;
   right: 5%;
 }
 
