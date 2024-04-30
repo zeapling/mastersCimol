@@ -28,7 +28,7 @@ function percorrerArray(arrayHere) {
 
 function trocaGif()
 {
-    if(window.innerWidth > 1023) {
+    if(window.innerWidth > 1025) {
         let gif = percorrerArray(arrayGifs);
         gifTitulo.style.backgroundImage = "url("+gif+")";
     }

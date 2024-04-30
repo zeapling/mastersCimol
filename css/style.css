@@ -44,7 +44,7 @@ a{
 
 }
 .cimologo{
-  mix-blend-mode: difference;
+  mix-blend-mode: difference; 
   filter: invert(1);
   position: absolute;
   width: 5vw;
@@ -255,7 +255,7 @@ main{
   }
   
   
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1025px) {
 
     .divPatrocinadores img{
     height: 30px;
